@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DriverCommand;
 import org.openqa.selenium.support.ui.Select;
@@ -21,6 +22,7 @@ import dev.failsafe.internal.util.Assert;
 public class MyTestcases {
 //majd
 	WebDriver driver = new ChromeDriver();
+	WebDriver driver2 = new EdgeDriver();
 	String mywebsite = "https://automationteststore.com/";
 
 	String[] firstNames = { "amal", "majd", "noha", "ayat", "yosra", "alaa", "sawsan", "Rama" };
