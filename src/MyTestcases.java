@@ -20,13 +20,13 @@ import org.testng.annotations.Test;
 import dev.failsafe.internal.util.Assert;
 
 public class MyTestcases {
-//majd
+//majd rahf
 	WebDriver driver = new ChromeDriver();
 	WebDriver driver2 = new EdgeDriver();
 	String mywebsite = "https://automationteststore.com/";
 
 	String[] firstNames = { "amal", "majd", "noha", "ayat", "yosra", "alaa", "sawsan", "Rama" };
-	String[] LastNames = { "Khaled", "ahmad", "Mohammad", "abdullah", "yazan", "omar" };
+	String[] LastNames = { "Khaled", "ahmad", "Mohammad", "abdullah", "yazan", "omar","majd" };
 
 	Random rand = new Random();
 	String GlobalUserName = "";
