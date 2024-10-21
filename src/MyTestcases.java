@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 import dev.failsafe.internal.util.Assert;
 
 public class MyTestcases {
-
+//majd
 	WebDriver driver = new ChromeDriver();
 	String mywebsite = "https://automationteststore.com/";
 
